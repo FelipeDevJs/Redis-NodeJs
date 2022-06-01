@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 try{
-    const conn = mongoose.connect("mongodb+srv://felps:5emNexXo@cluster0.bsud5.mongodb.net/?retryWrites=true&w=majority", {
+    const conn = mongoose.connect("", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
